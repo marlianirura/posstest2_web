@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daftar</title>
+</head>
+<header>
+    <img src="primagama.png" align="left" width="105px">
+    <br>
+    <div class="judul">
+    <marquee><h1> PRIMA GAMA</h1></marquee>
+    </div>
+</header>
+<nav>
+    <a href="beranda.html"><span>Beranda</span></a>
+    <a href="tentang.html"><span>Tentang</span></a>
+    <a href="kontak.html"><span>Kontak</span></a>
+</nav>
+<body>
+    <div class="menu">
+    <form>
+        <div class="daftar_disini">
+        Nama : 
+        <input type="text" id="daf_nama" required/>
+        <br>
+        <br>
+        E-Mail:
+        <input type="email" id="daf_email"  required/>
+        <br>
+        <br>
+        Jenis Kelamin :
+        <input type="radio" id="p" name="Jenis Kelamin" value="perempuan"> 
+        <label for="p">Perempuan</label>
+        <input type="radio" id="l" name="Jenis Kelamin" value="laki-laki"> 
+        <label for="l">Laki-laki</label>
+        <br>
+        <br>
+        Jenjang Sekolah :
+        <select name="jenjang">
+            <option>SD</option>
+            <option>SMP</option>
+            <option>SMA</option>
+        </select>
+        <br>
+        <br>
+        Pelajaran Yang Disukai :
+        <input type="checkbox" id="sd" name="disukai" value="iIPA"> IPA
+        <input type="checkbox" id="smp" name="disukai" value="IPS"> IPS
+        <input type="checkbox" id="sma" name="disukai" value="BAHASA"> BAHASA
+        <br>
+        <br>
+        Alasan Mendaftar di Prima Gama :
+        <textarea name="" id="alasan" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button type="submit" id="daftar">Daftar</button>
+    </form>
+ 
+</div>
+</div>
+</body>
+<footer>
+    <p>2023</p> 
+    <p>Marliani Rura</p>
+    <p>Samarinda</p>
+</footer>
+<script src="daftar.js"></script>
+</html>

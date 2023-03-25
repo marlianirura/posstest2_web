@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color:lightseagreen;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+.judul {
+    padding-right: 20%;
+    padding-left: 18%;
+}
+
+img {
+    margin-left: 10%;
+}
+
+nav {
+    background-color:cadetblue;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a{
+    text-decoration:none ;
+    color: white;
+    padding: 10px 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav a:hover{
+    background-color: rgb(248, 239, 227);
+    color: black;
+    transition: 1s;
+}
+
+.menu{
+    background-image: url('elearning.png');
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+
+.loginn{
+    background-color:rgb(203, 235, 203);
+    padding: 30px 20px;
+    margin: 25px 500px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107); 
+}
+
+.indek{
+    background-image: url('elearning.png');
+    padding-bottom: 230px;
+    padding-top: 100px;
+}
+
+.awal h3{
+    text-align: center;
+    /* padding-left: 50px; */
+}
+
+.awal{
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 105px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.pertama{
+    text-align: center;
+    padding-bottom: -1%;
+    padding-top: -1%;
+    margin-left: -10%;
+}
+
+.kedua{
+    text-align: center;
+}
+
+.tunggu_apalagi{
+    text-align: right;
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 105px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107); 
+}
+
+.daftar_disini{
+    background-color:rgb(229, 250, 229);
+    padding: 30px 20px;
+    margin: 25px 500px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107); 
+}
+
+.disini{
+    background-color:rgb(158, 206, 158);
+    padding: 30px 200px;
+    margin: 25px 300px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107); 
+}
+
+.disimpan{
+    background-color:rgb(229, 250, 229);
+    padding: 30px 20px;
+    margin: 70px 500px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107); 
+}
+
+.daptar{
+    background-color: white;
+    padding: 15px 15px;
+    margin: 25px 405px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.tentang{
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 105px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.gam_tentang{
+    padding-right: 170px;
+    padding-left: 350px;
+    margin-top: -2%;
+    margin-bottom: -5%
+}
+
+.email{
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 305px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.no{
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 305px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.ig{
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 305px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.alamat{
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 305px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.visi_misi{
+    background-color: white;
+    padding: 15px 40px;
+    margin: 25px 105px;
+    text-align: justify;
+    border-radius: 40px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+footer {
+    background-color:gray;
+    color:black;
+    padding-left: 70px;
+    padding-right: 50px;
+}
